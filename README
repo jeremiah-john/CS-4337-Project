@@ -1,0 +1,21 @@
+interpreter.exe is the executable interpreter that was compiled for use on Windows
+Interpreter_Linux is the executable that will run on linux and quite possibly other UNIX-based operating systems.
+lexer.c & lexer.h contain the code for the lexical analyzer portion of the interpreter
+
+parser.c and parser.h contain the code for the parsing part of the interpreter
+symtable.c and symtable.h contain the code for the symbol table array and the functions for adding new symbols to the table and accessing existing symbols for modification.
+printtest.txt is a test program that showcases the new features of printing and assigning to variables
+test.txt is a simple program that takes user input and uses a simple if-else statement.
+
+the project can be compiled with GCC or any other compiler that handles C code
+the command to compile with gcc is:
+gcc main.c lexer.c parser.c symtable.c
+
+use the -o flags in gcc to specify the filename of the compiled executable,
+otherwise, the new executable may be named "a.out" or something similar
+the program only takes one argument: the filename of the file containing the code to interpret
+for example in order to run the interpreter on the printtest file, you must go to a commandline
+and type:
+./interpreter_Linux printtest.txt //for linux, also you can replace "interpreter_Linux" with the name of the program you compiled using gcc
+or
+interpreter printtest.txt //for windows

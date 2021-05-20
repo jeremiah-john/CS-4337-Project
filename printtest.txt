@@ -1,0 +1,9 @@
+print "we can print strings!\n";
+print "and also expressions!\n for example: 3 * 3 = " ;
+print 3*3;
+print "\n and now we can print variables, whether they contain strings or numbers!\n" ;
+i = 3;
+j = "hello there!";
+
+print i;
+print j;

@@ -1,0 +1,29 @@
+PRINT_FUNC
+STRING("we can print strings!\n")
+SEMICOLON
+PRINT_FUNC
+STRING("and also expressions!\n for example: 3 * 3 = ")
+SEMICOLON
+PRINT_FUNC
+INT(3)
+MULT_OP
+INT(3)
+SEMICOLON
+PRINT_FUNC
+STRING("\n and now we can print variables, whether they contain strings or numbers!\n")
+SEMICOLON
+ID(i)
+ASSIGN_OP
+INT(3)
+SEMICOLON
+ID(j)
+ASSIGN_OP
+STRING("hello there!")
+SEMICOLON
+PRINT_FUNC
+ID(i)
+SEMICOLON
+PRINT_FUNC
+ID(j)
+SEMICOLON
+ENDSTREAM
